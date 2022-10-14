@@ -1,0 +1,81 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 62.5%;
+}
+
+.main-body
+{
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: 0.4rem 0 1.6rem;
+}
+
+.central-text-logo
+{
+    position: relative;
+    margin: 4rem auto 0.5rem;
+    width: 270px;
+    font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 3.3rem;
+    text-align: center;
+    font-feature-settings: "ss05";
+}
+
+.central-logo
+{
+    position: absolute;
+    top: 158px;
+    left: 35px;
+}
+
+img
+{
+    border: 0;
+}
+
+.central-text-logo-wrapper
+{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+h1
+{
+    font-size: 3.2rem;
+    margin: 1.2rem 0;
+}
+
+.central-text-logo-img
+{
+    color: transparent;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -10000px;
+}
+.sprite
+{ 
+    background-image: linear-gradient(transparent,transparent),url(images/sprite.svg);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+} 
+
+.svg-wordmark
+{
+    background-position: 0 -254px;
+    width: 176px;
+    height: 32px;
+}
+
+.localized-slogan
+{
+    display: block;
+    font-family: Linux Libertine,Georgia,Times,serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
