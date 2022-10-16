@@ -58,10 +58,11 @@ h1
     overflow: hidden;
     text-indent: -10000px;
 }
-.sprite
+.sprite 
 { 
     background-image: linear-gradient(transparent,transparent),url(images/sprite.svg);
     background-repeat: no-repeat;
+    display: inline-block;
     vertical-align: middle;
 } 
 
@@ -79,3 +80,184 @@ h1
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+.central-space
+{
+    position: relative;
+    height: 32.5rem;
+    width: 54.6rem;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.central-space-lang
+{
+    position: absolute;
+    width: 15.6rem;
+}
+
+.lang1
+{
+    top: 0;
+    right: 60%;
+}
+
+.central-space-lang strong
+{
+    display: block;
+   font-size: 1.6rem;
+}
+
+strong
+{
+    font-weight: 700;
+}
+
+a
+{
+    color: #36c;
+    text-decoration: none;
+}
+
+.central-space-lang small
+{
+    color: #54595d;
+    display: inline-block;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.lang2
+{
+    top: 0;
+    left: 60%;
+}
+
+.lang3
+{
+    top: 20%;
+    right: 70%;
+}
+
+.lang4
+{
+    top: 20%;
+    left: 70%;
+}
+
+.lang5
+{
+    top: 40%;
+    right: 72%;
+}
+
+.lang6
+{
+    top: 40%;
+    left: 72%;
+}
+
+.lang7
+{
+    top: 60%;
+    right: 70%;
+}
+
+.lang8
+{
+    top: 60%;
+    left: 70%;
+}
+
+.lang9
+{
+    top: 80%;
+    right: 60%;
+}
+
+.lang10
+{
+    top: 80%;
+    left: 60%;
+}
+
+.search-bar
+{
+    float: none;
+    max-width: 95%;
+    width: 540px;
+    margin: 0.4rem auto 1.95rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+form
+{
+    display: block;
+    margin-top: 0em;
+}
+
+input
+{
+    line-height: normal;
+    border: 0px;
+    min-height: 4.5rem;
+    margin: 0;
+    padding: 0.8rem 1.6rem;
+    font-size: 2.5rem;
+}
+
+
+.search-input
+{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    border: 1px #111;
+}
+
+.search-bar fieldset
+{
+    word-spacing: -4px;
+}
+
+.pure-form fieldset
+{
+    margin: 0;
+    padding: 0.56rem 0 1.2rem;
+    border: 0;
+}
+
+
+.search-bar button .svg-search-icon
+{
+    text-indent: -9999px;
+}
+
+.search-bar button
+{
+   min-height: 4.4rem;
+    margin: 0;
+    border-radius: 0 2px 2px 0;
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    z-index: 2;
+}
+
+.main-button-background
+{
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+}
+
+.svg-search-icon
+{
+    background-position: 0 -697px;
+    width: 22px;
+    height: 22px;
+}
+
