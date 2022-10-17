@@ -17,7 +17,7 @@ html {
 .central-text-logo
 {
     position: relative;
-    margin: 4rem auto 0.5rem;
+    margin: 43px auto 5px;
     width: 270px;
     font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
     font-size: 3rem;
@@ -96,6 +96,11 @@ h1
 {
     position: absolute;
     width: 15.6rem;
+}
+
+.central-space-lang:hover
+{
+    background-color: rgb(230, 230, 230);
 }
 
 .lang1
@@ -185,81 +190,56 @@ a
 
 .search-bar
 {
-    float: none;
-    max-width: 95%;
-    width: 540px;
-    margin: 0.4rem auto 1.95rem;
-    text-align: center;
-    vertical-align: middle;         
+    margin: 1rem auto;
+    text-align: center;       
 }
-
-
-form
-{
-    display: block;
-    margin-top: 0em;
-}
-
-input
-{
-    line-height: normal;
-    min-height: 4.5rem;
-    margin: 0;
-    height: 22px;
-    padding: 0.8rem 1.6rem;
-    font-size: 2.5rem;
-}
-
-input:focus
-{
-    border: 1px gray !important;
-}
-
-
 
 .search-input
 {
     display: inline-block;
-    position: relative;
-    vertical-align: top;
-    border: 1px #111;
-    width: 400px;
-    height: 40px;
+    width: 394px;
+    margin-right: -4px;
 }
 
-.search-bar fieldset
+.search-input input:focus
 {
-    word-spacing: -4px;
+    outline: none !important;
+    border-width: 2px 0 2px 2px !important;
+    border-color: #36c !important;
 }
 
-.pure-form fieldset
+.search-input input
 {
-    margin: 0;
-    padding: 0.56rem 0 1.2rem;
-    border: 0;
-}
-
-
-.search-bar button .svg-search-icon
-{
-    text-indent: -9999px;
-}
-
-.search-bar button
-{
-   min-height: 4.4rem;
-    margin: 0;
-    border-radius: 0 2px 2px 0;
-    padding: 0.8rem 1.6rem;
+    border: 1px solid #a2a9b1;
+    vertical-align: middle;
+    border-width: 1px 0 1px 1px;
+    border-radius: 2px 0 0 2px;
+    padding: 0.8rem 9.6rem 0.8rem 1.2rem;
     font-size: 1.6rem;
-    z-index: 2;
+    line-height: 1.6;
+    width: 100%;
+    height: 44px;
 }
 
-.main-button-background
+.search-input input:hover
 {
+    border-color: #54595d;
+}
+
+.main-button
+{
+    min-height: 4.4rem;
+    padding: 0.8rem 1.7rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0 2px 2px 0;
     background-color: #36c;
-    border-color: #36c;
     color: #fff;
+}
+
+.main-button:hover
+{
+    background-color: #5C8AE6;
 }
 
 .svg-search-icon
